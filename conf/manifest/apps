@@ -28,7 +28,9 @@ __package workrave
 __package the_silver_searcher
 
 # dropbox
-__aur dropbox
+__aur dropbox \
+    --source "$__files/aur/dropbox-9.4.49-1-x86_64.pkg.tar.xz"
 
 # browser
-__aur google-chrome
+__aur google-chrome \
+    --source "$__files/aur/google-chrome-53.0.2785.89-1-x86_64.pkg.tar.xz"

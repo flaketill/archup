@@ -15,7 +15,8 @@ esac
 
 # checkout system76 driver AUR package if applicable
 if echo $vendor | grep -qi "system76"; then
-    __aur system76-driver
+    __aur system76-driver \
+        --source "$__files/aur/system76-driver-16.04.8-1-any.pkg.tar.xz"
 fi
 
 # install video driver

@@ -14,4 +14,5 @@ __package npm
 
 # version control
 __package git
-__aur git-lfs
+__aur git-lfs \
+    --source "$__files/aur/git-lfs-1.3.1-1-x86_64.pkg.tar.xz"
