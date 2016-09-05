@@ -42,7 +42,7 @@ __package i3status
 
 # i3 utilities
 __package dex
-__package dmenu
+__package rofi
 __package xautolock
 __package xorg-xbacklight
 __package xorg-xrandr
