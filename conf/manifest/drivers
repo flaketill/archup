@@ -19,6 +19,8 @@ if echo $vendor | grep -qi "system76"; then
     require="__package/pm-utils" \
         __aur system76-driver \
             --source "$__files/aur/system76-driver-16.04.8-1-any.pkg.tar.xz"
+    require="__aur/system76-driver" \
+        __start_on_boot system76.service
 fi
 
 # install video driver
