@@ -17,6 +17,9 @@ __package vlc
 # text editor
 __package gvim
 
+# archive manager
+__package xarchiver
+
 # keepass
 __package keepass
 __package xdotool
