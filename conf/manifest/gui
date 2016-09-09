@@ -49,3 +49,6 @@ __package xorg-xrandr
 __package xorg-xrdb
 __package imagemagick
 __package feh
+
+# desktop notifications
+__package dunst
