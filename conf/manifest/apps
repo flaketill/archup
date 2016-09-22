@@ -21,8 +21,7 @@ __package gvim
 __package xarchiver
 
 # keepass
-__package keepass
-__package xdotool
+__package keepassx2
 
 # workrave
 __package workrave 
