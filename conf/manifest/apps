@@ -38,4 +38,4 @@ __aur dropbox \
 
 # browser
 __aur google-chrome \
-    --source "$__files/aur/google-chrome-53.0.2785.89-1-x86_64.pkg.tar.xz"
+    --source "$__files/aur/google-chrome-54.0.2840.100-1-x86_64.pkg.tar.xz"
