@@ -33,3 +33,11 @@ case "$machine_type" in
             __start_on_boot bluetooth.service
         ;;
 esac
+
+# ntp
+case "$machine_type" in
+    physical)
+        __package ntp
+        require="__package/ntp" \
+            __start_on_boot ntpd.service
+esac
