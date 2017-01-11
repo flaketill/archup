@@ -23,6 +23,9 @@ __package gvim
 # archive manager
 __package xarchiver
 
+# image viewer
+__package sxiv
+
 # keepass
 __package keepassx2
 
