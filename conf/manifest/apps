@@ -35,6 +35,9 @@ __package workrave
 # file content searcher
 __package the_silver_searcher
 
+# offline documentation browser
+__package zeal
+
 # dropbox
 __aur dropbox \
     --source "$__files/aur/dropbox-9.4.49-1-x86_64.pkg.tar.xz"
