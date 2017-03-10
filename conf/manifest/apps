@@ -40,8 +40,8 @@ __package zeal
 
 # dropbox
 __aur dropbox \
-    --source "$__files/aur/dropbox-9.4.49-1-x86_64.pkg.tar.xz"
+    --source "$__files/aur/dropbox-19.4.13-1-x86_64.pkg.tar.xz"
 
 # browser
 __aur google-chrome \
-    --source "$__files/aur/google-chrome-54.0.2840.100-1-x86_64.pkg.tar.xz"
+    --source "$__files/aur/google-chrome-57.0.2987.98-1-x86_64.pkg.tar.xz"
