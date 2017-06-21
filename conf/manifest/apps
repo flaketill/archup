@@ -45,3 +45,5 @@ __aur dropbox \
 # browser
 __aur google-chrome \
     --source "$__files/aur/google-chrome-57.0.2987.98-1-x86_64.pkg.tar.xz"
+required="__aur/google-chrome" \
+    __link /usr/bin/google-chrome --source google-chrome-stable --type symbolic
